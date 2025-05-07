@@ -1,0 +1,23 @@
+{
+# Interaction arguments
+"datapoint_length" : 512,
+"training_type" : "strict",
+"n_epochs" : 10,
+"batch_size" : 16,
+
+"learning_rate" : 0.00005,
+"weight_decay" : 0,
+"num_training_steps" : 200000,
+"num_warmup_steps" : 2000,
+"sft_learning_rate" : 0.00005,
+"gradient_clip_norm" : 1,
+"seed" : -1,
+
+# Experiment arguments
+"base_folder" : "babylm-gpt2-baseline/experiments",
+"experiment_name" : "testing",
+
+"use_wandb" : False,
+"wandb_experiment_name" : "testing_new_acc",
+"wandb_project_name" : "babylm_gpt2_sweeps",
+}
